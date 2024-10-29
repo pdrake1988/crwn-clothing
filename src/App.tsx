@@ -1,9 +1,13 @@
 import "./App.css";
-import Directory from "./components/directory/Directory.tsx";
-import { categories } from "../public/categories.ts";
+import Home from "./routes/home/Home.tsx";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
-  return <Directory categories={categories} />;
+  return (
+    <Routes>
+      <Route path="/" element={<Home />} />
+    </Routes>
+  );
 }
 
 export default App;

@@ -1,4 +1,4 @@
-import { CategoriesProps } from "../../../public/categories.ts";
+import { CategoriesProps } from "../../categories.ts";
 import DirectoryContainer from "./DirectoryContainer.tsx";
 import CategoryItem from "../categories/CategoryItem.tsx";
 

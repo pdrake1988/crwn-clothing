@@ -32,4 +32,5 @@ const categories: CategoriesProps[] = [
   },
 ];
 
-export { categories, CategoriesProps };
+export { categories };
+export type { CategoriesProps };
