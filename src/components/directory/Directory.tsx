@@ -2,11 +2,7 @@ import { CategoriesProps } from "../../categories.ts";
 import DirectoryContainer from "./DirectoryContainer.tsx";
 import CategoryItem from "../categories/CategoryItem.tsx";
 
-type DirectoryProps = {
-  categories: CategoriesProps[];
-};
-
-function Directory({ categories }: DirectoryProps) {
+function Directory({ categories }: { categories: CategoriesProps[] }) {
   return (
     <DirectoryContainer>
       {categories.map((category) => (
